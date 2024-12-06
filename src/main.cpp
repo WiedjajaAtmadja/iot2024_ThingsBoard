@@ -1,7 +1,8 @@
 /*
 Test Thingsboard device: 
   curl -v -X POST http://demo.thingsboard.io/api/v1/tic0iv4wh04e1bqwpxn3/telemetry --header Content-Type:application/json --data "{temperature:25}"
-
+Public dashboard: 
+  https://demo.thingsboard.io/dashboard/e9387d10-b3c4-11ef-b5a8-ed1aed9a651f?publicId=ae632450-214f-11ee-9079-75f587c23e37
 */
 #include <Arduino.h>
 #include <WiFi.h>
